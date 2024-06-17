@@ -177,6 +177,6 @@ if True:
         'Local_FIIM': Local_FIIM.state_dict(),
         'Shared_Decoder_i':Shared_Decoder_i.state_dict()
     }
-    torch.save(checkpoint, os.path.join("models/CDDFuse_"+timestamp+'.pth'))
+    torch.save(checkpoint, os.path.join("models/cp_"+timestamp+'.pth'))
 
 

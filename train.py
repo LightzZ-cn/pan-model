@@ -159,11 +159,11 @@ for epoch in range(num_epochs):
     if optimizer2.param_groups[0]['lr'] <= 1e-6: optimizer2.param_groups[0]['lr'] = 1e-6
     if optimizer3.param_groups[0]['lr'] <= 1e-6: optimizer3.param_groups[0]['lr'] = 1e-6
     if optimizer4.param_groups[0]['lr'] <= 1e-6: optimizer4.param_groups[0]['lr'] = 1e-6
-    if optimizer5.param_groups[0]['lr'] <= 1e-6: optimizer1.param_groups[0]['lr'] = 1e-6
-    if optimizer6.param_groups[0]['lr'] <= 1e-6: optimizer2.param_groups[0]['lr'] = 1e-6
-    if optimizer7.param_groups[0]['lr'] <= 1e-6: optimizer3.param_groups[0]['lr'] = 1e-6
-    if optimizer8.param_groups[0]['lr'] <= 1e-6: optimizer4.param_groups[0]['lr'] = 1e-6
-    if optimizer9.param_groups[0]['lr'] <= 1e-6: optimizer4.param_groups[0]['lr'] = 1e-6
+    if optimizer5.param_groups[0]['lr'] <= 1e-6: optimizer5.param_groups[0]['lr'] = 1e-6
+    if optimizer6.param_groups[0]['lr'] <= 1e-6: optimizer6.param_groups[0]['lr'] = 1e-6
+    if optimizer7.param_groups[0]['lr'] <= 1e-6: optimizer7.param_groups[0]['lr'] = 1e-6
+    if optimizer8.param_groups[0]['lr'] <= 1e-6: optimizer8.param_groups[0]['lr'] = 1e-6
+    if optimizer9.param_groups[0]['lr'] <= 1e-6: optimizer9.param_groups[0]['lr'] = 1e-6
     
 if True:
     checkpoint = {
